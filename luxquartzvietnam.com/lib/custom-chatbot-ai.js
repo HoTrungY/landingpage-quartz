@@ -212,7 +212,7 @@
       return "Đá LUX Quartz có chính sách bảo hành chính hãng và độ bền cao cho khu vực bếp, lavabo, bàn đảo. Mình có thể gửi thông tin chi tiết theo từng dòng.";
     }
     if (value.includes("liên hệ") || value.includes("hotline") || value.includes("mua")) {
-      return "Bạn có thể gọi Hotline +84 905645155, hoặc để lại số điện thoại để đội ngũ tư vấn liên hệ ngay.";
+      return "Bạn có thể gọi Hotline 0982073500, hoặc để lại số điện thoại để đội ngũ tư vấn liên hệ ngay.";
     }
     if (/(?:0|84|\+84)\d{9,10}/.test(value.replace(/\s+/g, ""))) {
       return "Cảm ơn bạn, đội ngũ tư vấn LUX sẽ liên hệ với bạn trong ít phút nữa.";
