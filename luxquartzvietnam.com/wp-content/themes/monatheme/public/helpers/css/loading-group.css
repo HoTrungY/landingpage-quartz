@@ -1,0 +1,53 @@
+.is-loading-group.processing {
+    opacity: 0.50 !important;
+    position: relative;
+    pointer-events: none !important;
+}
+
+.is-loading-group.processing::before {
+    height: 1em;
+    width: 1em;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -.5em;
+    margin-top: -.5em;
+    content: '';
+    -webkit-animation: spin 1s ease-in-out infinite;
+    animation: spin 1s ease-in-out infinite;
+    background: url(../images/loader.svg) center center;
+    background-size: cover;
+    line-height: 1;
+    text-align: center;
+    font-size: 2em;
+    color: rgba(0, 0, 0, .75);
+    z-index: 99;
+}
+
+.is-loading-group-2.processing {
+    opacity: 0.50 !important;
+    position: relative;
+    pointer-events: none !important;
+}
+
+.is-loading-group-2.processing::before {
+    height: 1em;
+    width: 1em;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -.5em;
+    margin-top: -.5em;
+    content: '';
+    /* -webkit-animation: spin 1s ease-in-out infinite; */
+    /* animation: spin 1s ease-in-out infinite; */
+    background: url(../images/loader-2.svg) center center;
+    background-size: cover;
+    line-height: 1;
+    text-align: center;
+    font-size: 2em;
+    color: rgba(0, 0, 0, .75);
+    z-index: 99;
+}
